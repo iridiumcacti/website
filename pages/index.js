@@ -1,8 +1,13 @@
 import Head from 'next/head'
-
+cx design energy 
 export default function Home() {
   return (
     <div className="bg-indigo-900 relative overflow-hidden h-screen">
+      <Head>
+        <title>Iridium Digital</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg"></link>
+      </Head>
       <img src="/background.svg" className="absolute h-full w-full object-cover" />
       <div className="inset-0 bg-black opacity-25 absolute">
       </div>
