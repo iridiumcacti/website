@@ -27,7 +27,7 @@ jobs:
 
       - uses: borales/actions-yarn@v2.3.0
         with:
-          cmd: export
+          cmd: export -o live
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
