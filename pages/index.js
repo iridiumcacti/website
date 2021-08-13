@@ -1,5 +1,5 @@
 import Head from 'next/head'
-cx design energy 
+
 export default function Home() {
   return (
     <div className="bg-indigo-900 relative overflow-hidden h-screen">
